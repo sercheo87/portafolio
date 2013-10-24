@@ -1,92 +1,97 @@
 <!DOCTYPE html>
 <html>
-<header>
-    <title>Portafolio Sercheo!!!</title>
-    <link href="css/style.css"/>
-</header>
+    <header>
+        <title>Portafolio Sercheo!!!</title>
+        <link href="css/reset.css" rel="stylesheet"
+        type="text/css" media="all" />
+        <link href="css/style.css" rel="stylesheet" type="text/css" media="all"
+        />
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+    </header>
+
     <body>
-        <nav>
+        <nav id="navigation" class="navigation">
             <ul>
                 <li>
-                    <a href="#">Home</a>
+                    <span id="home" class="selected">Home</span>
                 </li>
                 <li>
-                    <a href="#">Portafolio</a>
+                    <span id="portafolio">Portafolio</span>
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                    <span id="contact">Contact</span>
                 </li>
                 <li>
-                    <a href="#">About</a>
+                    <span id="about">About</span>
                 </li>
             </ul>
         </nav>
-        
-        <div class="container">
-            <div class="home">
-                <h2>Home</h2>
+        <div id="container" class="container">
+            <div class="home opaque">
+                <h1>Home</h1>
                 <p>contenido Home</p>
             </div>
             <div class="portafolio">
-                <h2>Portafolio</h2>
+                <h1>Portafolio</h1>
                 <p>contenido Portafolio</p>
             </div>
             <div class="contact">
-                <h2>Contact</h2>
+                <h1>Contact</h1>
                 <p>contenido Contact</p>
             </div>
             <div class="about">
-                <h2>About</h2>
+                <h1>About</h1>
                 <p>contenido About</p>
             </div>
         </div>
-        
         <footer>
             <section>
-                <h1>Contact</h1>
+                <h2>Contact</h2>
                 <ul>
                     <li>
-                        <p>Gmail</p>
+                        <a href="#">Gmail</a>
                     </li>
                     <li>
-                        <p>Gitub</p>
+                        <a href="#">Gitub</a>
                     </li>
                     <li>
-                        <p>Live</p>
+                        <a href="#">Live</a>
                     </li>
                     <li>
-                        <p>LinkedIn</p>
+                        <a href="#">LinkedIn</a>
                     </li>
                 </ul>
             </section>
             <section>
-                <h1>Projects</h1>
+                <h2>Projects</h2>
                 <ul>
                     <li>
-                        <p>Project1</p>
+                        <a href="#">Project1</a>
                     </li>
                     <li>
-                        <p>Project2</p>
+                        <a href="#">Project2</a>
                     </li>
                     <li>
-                        <p>Project3</p>
+                        <a href="#">Project3</a>
                     </li>
                 </ul>
             </section>
             <section>
-                <h1>Sites Reference</h1>
+                <h2>Reference</h2>
                 <ul>
                     <li>
-                        <p>NodeJs</p>
+                        <a href="#">NodeJs</a>
                     </li>
                     <li>
-                        <p>Jade</p>
+                        <a href="#">Jade</a>
                     </li>
                     <li>
-                        <p>DocHub</p>
+                        <a href="#">DocHub</a>
                     </li>
                 </ul>
             </section>
         </footer>
     </body>
+
 </html>
